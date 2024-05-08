@@ -44,10 +44,8 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I am a Senior Frontend Engineer committed to contributing to the
-          success of projects and exceeding client expectations. I have honed my
-          skills in various frontend technologies, delivering high-quality web
-          applications. Check out my projects and skills.
+          I am committed to contributing to the success of projects and
+          exceeding client expectations. Check out my projects and skills.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
