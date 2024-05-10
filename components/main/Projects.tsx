@@ -4,7 +4,10 @@ import { ProjectList } from "@/constants";
 
 const Projects = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-cover py-20">
+    <div
+      id="projects"
+      className="flex flex-col items-center justify-center bg-cover py-20"
+    >
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 pt-10">
         My Projects
       </h1>
