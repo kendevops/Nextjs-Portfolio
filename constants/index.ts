@@ -244,3 +244,48 @@ export const Other_skill = [
     height: 60,
   },
 ];
+
+export const ProjectList = [
+  {
+    src: "/NextWebsite.png",
+    title: "Morden Web Application",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt, veniam ab autem iure quidem nulla quo fugit incidunt eius sit quibusdam quos accusantium nemo.",
+    technology: "Next.js",
+  },
+  {
+    src: "/CardImage.png",
+    title: "Morden Web Application",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt, veniam ab autem iure quidem nulla quo fugit incidunt eius sit quibusdam quos accusantium nemo.",
+    technology: "React.js",
+  },
+  {
+    src: "/SpaceWebsite.png",
+    title: "Morden Web Application",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt, veniam ab autem iure quidem nulla quo fugit incidunt eius sit quibusdam quos accusantium nemo.",
+    technology: "Next.js",
+  },
+  {
+    src: "/NextWebsite.png",
+    title: "Morden Web Application",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt, veniam ab autem iure quidem nulla quo fugit incidunt eius sit quibusdam quos accusantium nemo.",
+    technology: "Next.js",
+  },
+  {
+    src: "/NextWebsite.png",
+    title: "Morden Web Application",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt, veniam ab autem iure quidem nulla quo fugit incidunt eius sit quibusdam quos accusantium nemo.",
+    technology: "Next.js",
+  },
+  {
+    src: "/NextWebsite.png",
+    title: "Morden Web Application",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt, veniam ab autem iure quidem nulla quo fugit incidunt eius sit quibusdam quos accusantium nemo.",
+    technology: "Next.js",
+  },
+];
