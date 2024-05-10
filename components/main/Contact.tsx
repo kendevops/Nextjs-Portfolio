@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="w-screen h-screen bg-cover flex items-start justify-center"
+      className="w-screen h-screen bg-cover flex items-center justify-center"
     >
       <div
         style={{ background: "url(atombg-comp.webp)" }}
