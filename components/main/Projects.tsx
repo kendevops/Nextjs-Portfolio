@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useState } from "react";
 import ProjectCard from "../sub/ProjectCard";
@@ -22,6 +22,7 @@ const Projects = () => {
     const filteredData = ProjectList.filter((item) => {
       return item.category === category;
     });
+    console.log(filteredData);
     setMenuItems(filteredData);
   };
   return (
