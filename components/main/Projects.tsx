@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useState } from "react";
 import ProjectCard from "../sub/ProjectCard";
 import { ProjectList } from "@/constants";
@@ -32,7 +34,7 @@ const Projects = () => {
       </h1>
       <Categories filter={filter} categories={categories} />
       <div className="h-full w-full grid grid-cols-3 gap-5 max-w-[90%] max-h-[90%]">
-        {ProjectList.map((project, index) => (
+        {menuItems.map((project, index) => (
           <ProjectCard
             key={index}
             src={project.src}
