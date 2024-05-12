@@ -11,7 +11,7 @@ const allCategories = [
 ];
 const Projects = () => {
   const [categories, setCategories] = useState(allCategories);
-  const [menuItems, setMenuItems] = useState(ProjectList);
+const [menuItems, setMenuItems] = useState(() => ProjectList);
 
   const filter = (category: string) => {
     const filteredData =

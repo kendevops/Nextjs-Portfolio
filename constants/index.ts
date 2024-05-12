@@ -271,7 +271,7 @@ export const ProjectList = [
     id: 1,
     title: "Creon AI",
     category: "Next.js",
-    src: "/creon",
+    src: "/creon.png",
     preview: "https://creon.vercel.app/",
     github: "https://github.com/kendevops/creon-test",
     description:
@@ -281,7 +281,7 @@ export const ProjectList = [
     id: 2,
     title: "Sales Wale Clone",
     category: "React",
-    src: "/saleswale",
+    src: "/saleswale-site.webp",
     preview: "https://sharp-hodgkin-517e19.netlify.app/",
     github: "https://github.com/kendevops/saleswhale",
     description:
@@ -291,7 +291,7 @@ export const ProjectList = [
     id: 3,
     title: "Covid19 Tracker",
     category: "React",
-    src: "/covid19",
+    src: "/covid19.webp",
     preview:
       "https://5eb05e21417a7801dac19ba1--ken-covid19-tracker.netlify.app/",
     github: "https://github.com/kendevops/covid-19-tracker",
@@ -302,7 +302,7 @@ export const ProjectList = [
     id: 4,
     title: "Real Time Chrome Extention",
     category: "JavaScript",
-    src: "/chrome",
+    src: "/chrome-extention.webp",
     preview: "https://kendevops.github.io/JS_Dynamic_Landing_Page/",
     github: "https://github.com/kendevops/JS_Dynamic_Landing_Page",
     description:
@@ -312,7 +312,7 @@ export const ProjectList = [
     id: 5,
     title: "Recipe App",
     category: "JavaScript",
-    src: "/recipe",
+    src: "/recipe-App.webp",
     preview: "https://kendevops.github.io/More-Recipes/",
     github: "https://github.com/kendevops/More-Recipes",
     description:
@@ -322,7 +322,7 @@ export const ProjectList = [
     id: 6,
     title: "Arcade Game",
     category: "JavaScript",
-    src: "/arcade",
+    src: "/arcade.webp",
     preview: "https://kendevops.github.io/arcade-game/",
     github: "https://github.com/kendevops/arcade-game",
     description:
@@ -332,7 +332,7 @@ export const ProjectList = [
     id: 7,
     title: "Movies Nomination",
     category: "React",
-    src: "/movies",
+    src: "/movies.webp",
     preview: "https://the-shoppies-ken.netlify.app/",
     github: "https://github.com/kendevops/The-Shoppies",
     description:
@@ -342,7 +342,7 @@ export const ProjectList = [
     id: 8,
     title: "Video Landing Page",
     category: "JavaScript",
-    src: "/landing",
+    src: "/landing.webp",
     preview: "https://kendevops.github.io/Video_Landing_Page",
     github: "https://github.com/kendevops/Video_Landing_Page",
     description:
