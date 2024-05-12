@@ -271,7 +271,7 @@ export const ProjectList = [
     id: 1,
     title: "Creon AI",
     category: "Next.js",
-    src: "/creon.png",
+    src: "/Creon.png",
     preview: "https://creon.vercel.app/",
     github: "https://github.com/kendevops/creon-test",
     description:
@@ -291,7 +291,7 @@ export const ProjectList = [
     id: 3,
     title: "Covid19 Tracker",
     category: "React",
-    src: "/covid19.webp",
+    src: "/Covid19.webp",
     preview:
       "https://5eb05e21417a7801dac19ba1--ken-covid19-tracker.netlify.app/",
     github: "https://github.com/kendevops/covid-19-tracker",
