@@ -14,15 +14,10 @@ const Projects = () => {
   const [menuItems, setMenuItems] = useState(ProjectList);
 
   const filter = (category: string) => {
-    if (category === "All") {
-      setCategories(allCategories);
-      setMenuItems(ProjectList);
-      return;
-    }
-    const filteredData = ProjectList.filter((item) => {
-      return item.category === category;
-    });
-    console.log(filteredData);
+    const filteredData =
+      category === "All"
+        ? ProjectList
+        : ProjectList.filter((item) => item.category === category);
     setMenuItems(filteredData);
   };
   return (
