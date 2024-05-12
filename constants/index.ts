@@ -258,7 +258,7 @@ export const ProjectList = [
     title: "Morden Web Application",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt, veniam ab autem iure quidem nulla quo fugit incidunt eius sit quibusdam quos accusantium nemo.",
-    category: "React.js",
+    category: "React",
   },
   {
     src: "/SpaceWebsite.png",
@@ -270,11 +270,11 @@ export const ProjectList = [
   {
     id: 1,
     title: "Creon AI",
-    category: "Nextjs",
+    category: "Next.js",
     src: "/creon",
     preview: "https://creon.vercel.app/",
     github: "https://github.com/kendevops/creon-test",
-     description:
+    description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt.",
   },
   {
