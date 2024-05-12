@@ -251,41 +251,101 @@ export const ProjectList = [
     title: "Morden Web Application",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt, veniam ab autem iure quidem nulla quo fugit incidunt eius sit quibusdam quos accusantium nemo.",
-    technology: "Next.js",
+    category: "Next.js",
   },
   {
     src: "/CardImage.png",
     title: "Morden Web Application",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt, veniam ab autem iure quidem nulla quo fugit incidunt eius sit quibusdam quos accusantium nemo.",
-    technology: "React.js",
+    category: "React.js",
   },
   {
     src: "/SpaceWebsite.png",
     title: "Morden Web Application",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt, veniam ab autem iure quidem nulla quo fugit incidunt eius sit quibusdam quos accusantium nemo.",
-    technology: "Next.js",
+    category: "Next.js",
   },
   {
-    src: "/NextWebsite.png",
-    title: "Morden Web Application",
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt, veniam ab autem iure quidem nulla quo fugit incidunt eius sit quibusdam quos accusantium nemo.",
-    technology: "Next.js",
+    id: 1,
+    title: "Creon AI",
+    category: "Nextjs",
+    src: "/creon",
+    preview: "https://creon.vercel.app/",
+    github: "https://github.com/kendevops/creon-test",
+     description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt.",
   },
   {
-    src: "/NextWebsite.png",
-    title: "Morden Web Application",
+    id: 2,
+    title: "Sales Wale Clone",
+    category: "React",
+    src: "/saleswale",
+    preview: "https://sharp-hodgkin-517e19.netlify.app/",
+    github: "https://github.com/kendevops/saleswhale",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt, veniam ab autem iure quidem nulla quo fugit incidunt eius sit quibusdam quos accusantium nemo.",
-    technology: "Next.js",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt.",
   },
   {
-    src: "/NextWebsite.png",
-    title: "Morden Web Application",
+    id: 3,
+    title: "Covid19 Tracker",
+    category: "React",
+    src: "/covid19",
+    preview:
+      "https://5eb05e21417a7801dac19ba1--ken-covid19-tracker.netlify.app/",
+    github: "https://github.com/kendevops/covid-19-tracker",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt, veniam ab autem iure quidem nulla quo fugit incidunt eius sit quibusdam quos accusantium nemo.",
-    technology: "Next.js",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt.",
+  },
+  {
+    id: 4,
+    title: "Real Time Chrome Extention",
+    category: "JavaScript",
+    src: "/chrome",
+    preview: "https://kendevops.github.io/JS_Dynamic_Landing_Page/",
+    github: "https://github.com/kendevops/JS_Dynamic_Landing_Page",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt.",
+  },
+  {
+    id: 5,
+    title: "Recipe App",
+    category: "JavaScript",
+    src: "/recipe",
+    preview: "https://kendevops.github.io/More-Recipes/",
+    github: "https://github.com/kendevops/More-Recipes",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt.",
+  },
+  {
+    id: 6,
+    title: "Arcade Game",
+    category: "JavaScript",
+    src: "/arcade",
+    preview: "https://kendevops.github.io/arcade-game/",
+    github: "https://github.com/kendevops/arcade-game",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt.",
+  },
+  {
+    id: 7,
+    title: "Movies Nomination",
+    category: "React",
+    src: "/movies",
+    preview: "https://the-shoppies-ken.netlify.app/",
+    github: "https://github.com/kendevops/The-Shoppies",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt.",
+  },
+  {
+    id: 8,
+    title: "Video Landing Page",
+    category: "JavaScript",
+    src: "/landing",
+    preview: "https://kendevops.github.io/Video_Landing_Page",
+    github: "https://github.com/kendevops/Video_Landing_Page",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt.",
   },
 ];

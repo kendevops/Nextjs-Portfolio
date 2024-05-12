@@ -1,8 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import ProjectCard from "../sub/ProjectCard";
 import { ProjectList } from "@/constants";
+import Categories from "../sub/Categories";
 
+const allCategories = [
+  "All",
+  ...Array.from(new Set(ProjectList.map((item) => item.category))),
+];
 const Projects = () => {
+  const [categories, setCategories] = useState(allCategories);
+  const [menuItems, setMenuItems] = useState(ProjectList);
+
+  const filter = (category: string) => {
+    if (category === "All") {
+      setCategories(allCategories);
+      setMenuItems(ProjectList);
+      return;
+    }
+    const filteredData = ProjectList.filter((item) => {
+      return item.category === category;
+    });
+    setMenuItems(filteredData);
+  };
   return (
     <div
       id="projects"
@@ -11,22 +30,7 @@ const Projects = () => {
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 pt-10">
         My Projects
       </h1>
-      <div className="w-[500px] h-full flex flex-row items-center justify-center my-20 text-gray-300">
-        <div className="flex items-center justify-between w-full h-auto border-[#7042f861] bg-purple-800 mr-[10px] px-[40px] py-[10px] rounded-full">
-          <a href="#about-me" className="cursor-pointer">
-            All
-          </a>
-          <a href="#skills" className="cursor-pointer">
-            Next.js
-          </a>
-          <a href="#projects" className="cursor-pointer">
-            React
-          </a>
-          <a href="#contact" className="cursor-pointer">
-            Typescript
-          </a>
-        </div>
-      </div>
+      <Categories filter={filter} categories={categories} />
       <div className="h-full w-full grid grid-cols-3 gap-5 max-w-[90%] max-h-[90%]">
         {ProjectList.map((project, index) => (
           <ProjectCard
