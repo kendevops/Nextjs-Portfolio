@@ -249,22 +249,35 @@ export const ProjectList = [
   {
     src: "/NextWebsite.png",
     title: "Morden Web Application",
+    preview: "https://creon.vercel.app/",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt, veniam ab autem iure quidem nulla quo fugit incidunt eius sit quibusdam quos accusantium nemo.",
     category: "Next.js",
   },
   {
+    src: "/rhemamena.png",
+    title: "RBTC Learning Managment System",
+    preview: "https://rhemamena.com/",
+    description:
+      "A multi-tenancy learning management application for Rhema, designed to ensure that students across the MENA region can access courses tailored to their specific country. Each course is uploaded by their local country coordinator, preventing students from viewing content from other countries.",
+    category: "React",
+  },
+
+  {
     src: "/CardImage.png",
     title: "Morden Web Application",
+    preview: "https://creon.vercel.app/",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt, veniam ab autem iure quidem nulla quo fugit incidunt eius sit quibusdam quos accusantium nemo.",
     category: "React",
   },
   {
-    src: "/SpaceWebsite.png",
-    title: "Morden Web Application",
+    src: "/mySpaceWebsite.png",
+    title: "My Stellar Frontend Portfolio",
+    preview: "https://kendevops.vercel.app/",
+    github: "https://github.com/kendevops/Nextjs-Portfolio",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt, veniam ab autem iure quidem nulla quo fugit incidunt eius sit quibusdam quos accusantium nemo.",
+      "My space-themed portfolio showcases my expertise in frontend development. Built using Next.js, TailwindCSS, Framer Motion, and Three.js for animations, it highlights my skills and creativity in web development.",
     category: "Next.js",
   },
   {

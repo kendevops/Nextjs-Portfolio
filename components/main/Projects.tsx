@@ -36,6 +36,8 @@ const [menuItems, setMenuItems] = useState(() => ProjectList);
             src={project.src}
             title={project.title}
             description={project.description}
+            projectUrl={project.preview}
+            githubUrl={project.github}
           />
         ))}
       </div>

@@ -13,7 +13,13 @@ interface Props {
   githubUrl?: string;
 }
 
-const ProjectCard = ({ src, title, description, projectUrl, githubUrl }: Props) => {
+const ProjectCard = ({
+  src,
+  title,
+  description,
+  projectUrl,
+  githubUrl,
+}: Props) => {
   return (
     <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] group z-50">
       <div className="w-full h-64 overflow-hidden">
@@ -34,17 +40,23 @@ const ProjectCard = ({ src, title, description, projectUrl, githubUrl }: Props) 
         <motion.a
           variants={slideInFromLeft(1)}
           href={projectUrl}
+          target="_blank"
+          rel="noopener noreferrer"
           className="py-2 px-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] bg-blue-500"
         >
           View Project!
         </motion.a>
-        <motion.a
-          variants={slideInFromRight(1)}
-          href={githubUrl}
-          className="py-2 px-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] bg-green-500"
-        >
-          View Code!
-        </motion.a>
+        {githubUrl && (
+          <motion.a
+            variants={slideInFromRight(1)}
+            href={githubUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="py-2 px-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] bg-green-500"
+          >
+            View Code!
+          </motion.a>
+        )}
       </div>
     </div>
   );
