@@ -298,7 +298,7 @@ export const ProjectList = [
     preview: "https://sharp-hodgkin-517e19.netlify.app/",
     github: "https://github.com/kendevops/saleswhale",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt.",
+      "Sales Wale Clone is a meticulously crafted replica of the popular sales management tool, Sales Wale. This clone showcases advanced features for tracking leads, managing customer interactions, and automating sales workflows, providing a comprehensive solution for sales teams to optimize their performance and streamline their processes.",
   },
   {
     title: "Covid19 Tracker",
@@ -308,17 +308,16 @@ export const ProjectList = [
       "https://5eb05e21417a7801dac19ba1--ken-covid19-tracker.netlify.app/",
     github: "https://github.com/kendevops/covid-19-tracker",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt.",
+      "Covid19 Tracker is a comprehensive and real-time web application designed to monitor and display the latest data on the COVID-19 pandemic and this was built during the covid and helped people monitor the spread of the pandemic. This tool provides up-to-date statistics on cases, recoveries, and fatalities globally.",
   },
   {
-    id: 4,
-    title: "Real Time Chrome Extention",
+    title: "Real Time Chrome Extension",
     category: "JavaScript",
     src: "/chrome-extention.webp",
     preview: "https://kendevops.github.io/JS_Dynamic_Landing_Page/",
     github: "https://github.com/kendevops/JS_Dynamic_Landing_Page",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt.",
+      "This extension enhances productivity by providing instant access to real-time information and alerts without disrupting the browsing experience. It is designed with a focus on performance and ease of use, showcasing advanced skills in browser extension development. Perfect for staying informed and efficient on the go.",
   },
   {
     title: "Recipe App",
@@ -327,7 +326,7 @@ export const ProjectList = [
     preview: "https://kendevops.github.io/More-Recipes/",
     github: "https://github.com/kendevops/More-Recipes",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt.",
+      "Discover and save your favorite recipes with the Recipe App. Featuring a user-friendly interface, it allows you to browse, search, and organize recipes effortlessly. Perfect for home cooks and food enthusiasts looking to expand their culinary horizons. Enjoy step-by-step instructions and meal planning tools at your fingertips.",
   },
   {
     title: "Arcade Game",
@@ -336,7 +335,7 @@ export const ProjectList = [
     preview: "https://kendevops.github.io/arcade-game/",
     github: "https://github.com/kendevops/arcade-game",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt.",
+      "Dive into nostalgic fun with the Arcade Game, offering classic gameplay with modern enhancements. This engaging app provides hours of entertainment with vibrant graphics and challenging levels. Compete for high scores and unlock achievements.",
   },
   {
     title: "Movies Nomination",
@@ -345,7 +344,7 @@ export const ProjectList = [
     preview: "https://the-shoppies-ken.netlify.app/",
     github: "https://github.com/kendevops/The-Shoppies",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt.",
+      "Simplify your film award season with the Movies Nomination app. Easily nominate and track your favorite movies for various awards. With a sleek design and intuitive features, this app is perfect for movie buffs and industry professionals. Stay organized and ensure you never miss a deserving contender.",
   },
   {
     title: "Video Landing Page",
@@ -354,6 +353,6 @@ export const ProjectList = [
     preview: "https://kendevops.github.io/Video_Landing_Page",
     github: "https://github.com/kendevops/Video_Landing_Page",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt.",
+      "Create impactful first impressions with the Video Landing Page. This dynamic platform features high-quality video content to engage visitors instantly. Perfect for marketing campaigns, product launches, and brand storytelling. Enhance user experience and drive conversions with compelling visuals and seamless navigation.",
   },
 ];
