@@ -59,7 +59,7 @@ const ContactForm: React.FC = () => {
             <input
               type="text"
               placeholder="Your Name"
-              name="name"
+              name="user_name"
               className="w-full px-3 py-2 text-sm text-black placeholder-gray-400 bg-white border-0 rounded shadow"
             />
           </div>
@@ -67,7 +67,7 @@ const ContactForm: React.FC = () => {
             <input
               type="email"
               placeholder="Email"
-              name="email"
+              name="user_email"
               className="w-full px-3 py-2 text-sm text-black placeholder-gray-400 bg-white border-0 rounded shadow"
             />
           </div>
