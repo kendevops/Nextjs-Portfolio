@@ -250,11 +250,12 @@ export const Other_skill = [
 
 export const ProjectList = [
   {
-    src: "/NextWebsite.png",
-    title: "Morden Web Application",
-    preview: "https://creon.vercel.app/",
+    src: "/mySpaceWebsite.png",
+    title: "My Stellar Frontend Portfolio",
+    preview: "https://kendevops.vercel.app/",
+    github: "https://github.com/kendevops/Nextjs-Portfolio",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt, veniam ab autem iure quidem nulla quo fugit incidunt eius sit quibusdam quos accusantium nemo.",
+      "My space-themed portfolio showcases my expertise in frontend development. Built using Next.js, TailwindCSS, Framer Motion, and Three.js for animations, it highlights my skills and creativity in web development.",
     category: "Next.js",
   },
   {
@@ -265,26 +266,7 @@ export const ProjectList = [
       "A multi-tenancy learning management application for Rhema, designed to ensure that students across the MENA region can access courses tailored to their specific country. Each course is uploaded by their local country coordinator, preventing students from viewing content from other countries.",
     category: "React",
   },
-
   {
-    src: "/CardImage.png",
-    title: "Morden Web Application",
-    preview: "https://creon.vercel.app/",
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt, veniam ab autem iure quidem nulla quo fugit incidunt eius sit quibusdam quos accusantium nemo.",
-    category: "React",
-  },
-  {
-    src: "/mySpaceWebsite.png",
-    title: "My Stellar Frontend Portfolio",
-    preview: "https://kendevops.vercel.app/",
-    github: "https://github.com/kendevops/Nextjs-Portfolio",
-    description:
-      "My space-themed portfolio showcases my expertise in frontend development. Built using Next.js, TailwindCSS, Framer Motion, and Three.js for animations, it highlights my skills and creativity in web development.",
-    category: "Next.js",
-  },
-  {
-    id: 1,
     title: "Creon AI",
     category: "Next.js",
     src: "/Creon.png",
@@ -294,7 +276,22 @@ export const ProjectList = [
       "The Creon NFT pass unlocks access to AI projects, the Creon launchpad, and a ticket to generate passive income through AI-driven tools. This is a clone look of the world's first platform for tokenizing AI Blockchain projects.",
   },
   {
-    id: 2,
+    src: "/CardImage.png",
+    title: "Morden Web Application",
+    preview: "https://creon.vercel.app/",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt, veniam ab autem iure quidem nulla quo fugit incidunt eius sit quibusdam quos accusantium nemo.",
+    category: "React",
+  },
+  {
+    src: "/NextWebsite.png",
+    title: "Morden Web Application",
+    preview: "https://creon.vercel.app/",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt, veniam ab autem iure quidem nulla quo fugit incidunt eius sit quibusdam quos accusantium nemo.",
+    category: "Next.js",
+  },
+  {
     title: "Sales Wale Clone",
     category: "React",
     src: "/saleswale-site.webp",
@@ -304,7 +301,6 @@ export const ProjectList = [
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt.",
   },
   {
-    id: 3,
     title: "Covid19 Tracker",
     category: "React",
     src: "/Covid19.webp",
@@ -325,7 +321,6 @@ export const ProjectList = [
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt.",
   },
   {
-    id: 5,
     title: "Recipe App",
     category: "JavaScript",
     src: "/recipe-App.webp",
@@ -335,7 +330,6 @@ export const ProjectList = [
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt.",
   },
   {
-    id: 6,
     title: "Arcade Game",
     category: "JavaScript",
     src: "/arcade.webp",
@@ -345,7 +339,6 @@ export const ProjectList = [
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt.",
   },
   {
-    id: 7,
     title: "Movies Nomination",
     category: "React",
     src: "/movies.webp",
@@ -355,7 +348,6 @@ export const ProjectList = [
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt.",
   },
   {
-    id: 8,
     title: "Video Landing Page",
     category: "JavaScript",
     src: "/landing.webp",
