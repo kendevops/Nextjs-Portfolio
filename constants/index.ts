@@ -81,16 +81,19 @@ export const Skill_data = [
 
 export const Socials = [
   {
-    name: "Discord",
-    src: "/instagram.svg",
+    name: "Linkedin",
+    src: "/linkedin.svg",
+    link: "https://www.linkedin.com/in/kenneth-aladi/",
   },
   {
-    name: "Facebook",
-    src: "/facebook.svg",
+    name: "Github",
+    src: "/github.svg",
+    link: "https://github.com/kendevops",
   },
   {
-    name: "Instagram",
-    src: "/discord.svg",
+    name: "Skype",
+    src: "/skype.svg",
+    link: "https://join.skype.com/invite/CfFBVOJZydLG",
   },
 ];
 
@@ -288,7 +291,7 @@ export const ProjectList = [
     preview: "https://creon.vercel.app/",
     github: "https://github.com/kendevops/creon-test",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt.",
+      "The Creon NFT pass unlocks access to AI projects, the Creon launchpad, and a ticket to generate passive income through AI-driven tools. This is a clone look of the world's first platform for tokenizing AI Blockchain projects.",
   },
   {
     id: 2,
