@@ -26,7 +26,6 @@ const ProjectCard = ({
         <Image
           src={src}
           alt={title}
-          layout="responsive"
           width={1000}
           height={340}
           className="object-cover w-full h-full"

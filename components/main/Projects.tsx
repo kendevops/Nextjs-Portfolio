@@ -11,7 +11,7 @@ const allCategories = [
 ];
 const Projects = () => {
   const [categories, setCategories] = useState(allCategories);
-const [menuItems, setMenuItems] = useState(() => ProjectList);
+  const [menuItems, setMenuItems] = useState(() => ProjectList);
 
   const filter = (category: string) => {
     const filteredData =
@@ -29,7 +29,7 @@ const [menuItems, setMenuItems] = useState(() => ProjectList);
         My Projects
       </h1>
       <Categories filter={filter} categories={categories} />
-      <div className="h-full w-full grid grid-cols-3 gap-5 max-w-[90%] max-h-[90%]">
+      <div className="h-full w-full grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-5 max-w-[90%] max-h-[90%]">
         {menuItems.map((project, index) => (
           <ProjectCard
             key={index}
