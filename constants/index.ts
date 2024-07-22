@@ -276,6 +276,15 @@ export const ProjectList = [
       "The Creon NFT pass unlocks access to AI projects, the Creon launchpad, and a ticket to generate passive income through AI-driven tools. This is a clone look of the world's first platform for tokenizing AI Blockchain projects.",
   },
   {
+    title: "Animated Sass Landing Page",
+    category: "Next.js",
+    src: "/sass.png",
+    preview: "https://saas-animate.vercel.app/",
+    github: "https://github.com/kendevops/Saas-Animate",
+    description:
+      "Experience the sleek and modern design of our Animated Dark Theme Landing Page. Featuring smooth animations and a stylish dark interface, this landing page offers a visually captivating user experience. It’s perfect for showcasing innovative products and services. Ideal for businesses looking to make a bold impression online.",
+  },
+  {
     src: "/CardImage.png",
     title: "Morden Web Application",
     preview: "https://creon.vercel.app/",
@@ -300,16 +309,7 @@ export const ProjectList = [
     description:
       "Sales Wale Clone is a meticulously crafted replica of the popular sales management tool, Sales Wale. This clone showcases advanced features for tracking leads, managing customer interactions, and automating sales workflows, providing a comprehensive solution for sales teams to optimize their performance and streamline their processes.",
   },
-  {
-    title: "Covid19 Tracker",
-    category: "React",
-    src: "/Covid19.webp",
-    preview:
-      "https://5eb05e21417a7801dac19ba1--ken-covid19-tracker.netlify.app/",
-    github: "https://github.com/kendevops/covid-19-tracker",
-    description:
-      "Covid19 Tracker is a comprehensive and real-time web application designed to monitor and display the latest data on the COVID-19 pandemic and this was built during the covid and helped people monitor the spread of the pandemic. This tool provides up-to-date statistics on cases, recoveries, and fatalities globally.",
-  },
+
   {
     title: "Real Time Chrome Extension",
     category: "JavaScript",
