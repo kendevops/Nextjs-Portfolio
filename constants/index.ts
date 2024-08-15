@@ -285,11 +285,11 @@ export const ProjectList = [
       "Experience the sleek and modern design of our Animated Dark Theme Landing Page. Featuring smooth animations and a stylish dark interface, this landing page offers a visually captivating user experience. It’s perfect for showcasing innovative products and services. Ideal for businesses looking to make a bold impression online.",
   },
   {
-    src: "/CardImage.png",
-    title: "Morden Web Application",
-    preview: "https://creon.vercel.app/",
+    src: "/EStore.png",
+    title: "Morden E-Commerce Website",
+    preview: "https://sound-ecommerce-theta.vercel.app/",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident odio quaerat alias architecto unde deserunt, veniam ab autem iure quidem nulla quo fugit incidunt eius sit quibusdam quos accusantium nemo.",
+      "Fully responsive Modern Full Stack Ecommerce application with Payments functionality. With Modern design, animations, the ability to add and edit products on the go using a CMS, all advanced cart functionalities, and most importantly the complete integration with Stripe so that you can cover REAL payments.",
     category: "React",
   },
   {
